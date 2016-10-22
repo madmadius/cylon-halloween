@@ -1,0 +1,1 @@
+npm install cylon cylon-intel-iot cylon-gpio cylon-i2c
