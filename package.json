@@ -8,7 +8,8 @@
     "cylon-gpio": "",
     "cylon-i2c": "",
     "cylon-intel-iot": "",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mraa": "",
   },
   "description": "Gort (http://gort.io) is a Command Line Toolkit for RobotOps. Gort provides tools to scan for connected devices, upload firmware, and more.",
   "main": "index.js",
