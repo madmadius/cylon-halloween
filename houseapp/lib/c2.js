@@ -6,9 +6,9 @@ Cylon.robot({
   },
 
   devices: {
-    led: { driver: 'relay', pin: 13, type: "closed" }
-    led: { driver: 'relay', pin: 12, type: "closed" }
-    led: { driver: 'relay', pin: 11, type: "closed" }
+    led: { driver: 'relay', pin: 13, type: "closed" },
+    led: { driver: 'relay', pin: 12, type: "closed" },
+    led: { driver: 'relay', pin: 11, type: "closed" },
   },
 
   work: function(my) {
