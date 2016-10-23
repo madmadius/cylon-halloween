@@ -62,11 +62,11 @@ Cylon.robot({
 	},
 
 	work: function(my) {
-		every((2).second(), my.led.turnOn());
-		every((3).second(), my.led.turnOff());
-		every((5).second(), my.elwireVoice1.turnOn());
-		every((2).second(), my.elwireVoice1.turnOff());
-		every((5).second(), my.elwireVoice8.turnOn());
-		every((2).second(), my.elwireVoice8.turnOff());
+		//every((2).second(), my.led.turnOn());
+		//every((3).second(), my.led.turnOff());
+		//every((5).second(), my.elwireVoice1.turnOn());
+		//every((2).second(), my.elwireVoice1.turnOff());
+		//every((5).second(), my.elwireVoice8.turnOn());
+		//every((2).second(), my.elwireVoice8.turnOff());
 	}
 }).start();
