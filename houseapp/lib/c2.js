@@ -32,27 +32,27 @@ Cylon.robot({
 
 		},
 		elwireVoice2: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 3
 		},
 		elwireVoice3: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 4
 		},
 		elwireVoice4: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 5
 		},
 		elwireVoice5: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 6
 		},
 		elwireVoice6: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 7
 		},
 		elwireVoice7: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 8
 		},
 		elwireVoice8: {
