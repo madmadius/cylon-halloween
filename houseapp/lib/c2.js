@@ -27,7 +27,7 @@ Cylon.robot({
 		//
 		//ELwire on pins 2-9 
 		elwireVoice1: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 2,
 
 		},
@@ -56,17 +56,17 @@ Cylon.robot({
 			pin: 8
 		},
 		elwireVoice8: {
-			driver: 'direct-pin',
+			driver: 'led',
 			pin: 9
 		}
 	},
 
 	work: function(my) {
-		every((2).second(), my.led.digitalWrite(1));
-		every((3).second(), my.led.digitalWrite(0));
-		every((5).second(), my.elwireVoice1.digitalWrite(1));
-		every((2).second(), my.elwireVoice1.digitalWrite(0));
-		every((5).second(), my.elwireVoice8.digitalWrite(1));
-		every((2).second(), my.elwireVoice8w.digitalWrite(0));
+		every((2).second(), my.led.turnOn());
+		every((3).second(), my.led.turnOff());
+		every((5).second(), my.elwireVoice1.turnOn());
+		every((2).second(), my.elwireVoice1.turnOff());
+		every((5).second(), my.elwireVoice8.turnOn());
+		every((2).second(), my.elwireVoice8w.turnOff());
 	}
 }).start();
