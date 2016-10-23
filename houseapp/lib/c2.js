@@ -23,12 +23,13 @@ Cylon.robot({
 			pin: 17,
 			type: "closed"
 		},
-		//led: { driver: 'relay', pin: 18, type: "closed" },
+		led: { driver: 'led', pin: 10},
 		//
 		//ELwire on pins 2-9 
 		elwireVoice1: {
 			driver: 'direct-pin',
-			pin: 2
+			pin: 2,
+
 		},
 		elwireVoice2: {
 			driver: 'direct-pin',
