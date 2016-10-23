@@ -1,7 +1,8 @@
 var Cylon = require('cylon');
 
 Cylon.api("http", {
-  port: '4321'
+  host: '192.168.0.32',
+  port: '4321',
 });
 
 Cylon.robot({
