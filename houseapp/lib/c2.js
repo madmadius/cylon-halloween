@@ -62,6 +62,9 @@ Cylon.robot({
 	},
 
 	work: function(my) {
-		//every((75).second(), my.singingvoice.toggle);
+		every((5).second(), my.elwireVoice1.digitalWrite(1));
+		every((2).second(), my.elwireVoice1.digitalWrite(0));
+		every((5).second(), my.elwireVoice8.digitalWrite(1));
+		every((2).second(), my.elwireVoice8.digitalWrite(0));
 	}
 }).start();
