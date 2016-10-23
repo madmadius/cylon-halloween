@@ -1,5 +1,10 @@
 var Cylon = require('cylon');
 
+Cylon.api("http", {
+  host: '127.0.0.1',
+  port: '4321',
+});
+
 Cylon.robot({
   connections: {
     edison: { adaptor: 'intel-iot' }
@@ -12,6 +17,6 @@ Cylon.robot({
   },
 
   work: function(my) {
-    every((15).second(), my.singingvoice.toggle);
+    //every((75).second(), my.singingvoice.toggle);
   }
 }).start();

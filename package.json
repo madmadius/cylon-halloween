@@ -8,6 +8,7 @@
     "cylon-gpio": "",
     "cylon-i2c": "",
     "cylon-intel-iot": "",
+    "cylon-api-http": "",
     "express": "^4.14.0",
     "mraa": ""
   },
