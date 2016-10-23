@@ -67,6 +67,6 @@ Cylon.robot({
 		every((5).second(), my.elwireVoice1.turnOn());
 		every((2).second(), my.elwireVoice1.turnOff());
 		every((5).second(), my.elwireVoice8.turnOn());
-		every((2).second(), my.elwireVoice8w.turnOff());
+		every((2).second(), my.elwireVoice8.turnOff());
 	}
 }).start();
